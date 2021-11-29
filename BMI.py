@@ -1,0 +1,5 @@
+W = float(input("Enter your weight: "))
+H = float(input("Enter your height: "))
+BMI =  W / (H*H)
+perc_BMI = "{:.2%}".format(BMI*100)
+print("Your BMI is:", perc_BMI)
